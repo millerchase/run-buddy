@@ -151,7 +151,7 @@ footer a {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
-    background-color: grba(255,255,255, 0.75);
+    background-color: rgba(255,255,255, 0.75);
 }
 
 .form-input:focus {
@@ -203,10 +203,11 @@ footer a {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
+    background: var(--secondary-color);
     position: absolute;
     left: -29px;
     top: -3px;
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
